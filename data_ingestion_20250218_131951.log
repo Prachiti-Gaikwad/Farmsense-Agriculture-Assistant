@@ -1,0 +1,413 @@
+2025-02-18 13:19:51,563 - INFO - Use pytorch device_name: cpu
+2025-02-18 13:19:51,563 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-18 13:19:55,671 - INFO - Reading CSV file from datafarmer_cleaned.csv
+2025-02-18 13:19:55,765 - INFO - Original columns: ['Domain_Code', 'Domain', 'Area_Code', 'Area', 'Element_Code', 'Element', 'Item_Code', 'Item', 'Year_Code', 'Year', 'Unit', 'Value', 'Flag', 'Flag_Description', 'Note']
+2025-02-18 13:19:55,765 - INFO - Available columns: ['Domain_Code', 'Domain', 'Area_Code', 'Area', 'Element_Code', 'Element', 'Item_Code', 'Item', 'Year_Code', 'Year', 'Unit', 'Value', 'Flag', 'Flag_Description', 'Note']
+2025-02-18 13:19:55,793 - INFO - Total rows to process: 22597
+2025-02-18 13:19:59,959 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:19:59,959 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:19:59,968 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:02,760 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:02,760 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:02,760 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:05,676 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:05,676 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:05,683 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:07,446 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:07,446 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:07,446 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:09,402 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:09,402 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:09,416 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:11,084 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:11,216 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:11,216 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:13,135 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:13,135 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:13,152 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:14,941 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:15,033 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:15,033 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:17,015 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:17,017 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:17,024 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:18,989 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:18,989 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:18,989 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:20,970 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:20,972 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:20,982 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:22,734 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:22,734 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:22,749 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:24,670 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:24,671 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:24,685 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:26,439 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:26,439 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:26,439 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:28,552 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:28,553 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:28,565 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:30,308 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:30,313 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:30,313 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:32,166 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:32,168 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:32,182 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:33,993 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:34,012 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:34,013 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:35,918 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:35,918 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:35,931 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:37,881 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:37,881 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:37,881 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:39,772 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:39,781 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:39,798 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:41,553 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:41,568 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:41,568 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:43,405 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:43,405 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:43,431 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:45,269 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:45,269 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:45,269 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:47,166 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:47,180 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:47,198 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:49,028 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:49,045 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:49,045 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:51,064 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:51,066 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:51,081 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:52,873 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:52,873 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:52,873 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:54,860 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:54,861 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:54,861 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:56,606 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:56,621 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:20:56,621 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:20:58,560 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:20:58,561 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:20:58,566 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:00,382 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:00,414 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:00,419 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:02,293 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:02,294 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:02,312 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:04,026 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:04,052 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:04,053 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:06,175 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:06,176 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:06,182 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:08,003 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:08,003 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:08,003 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:09,914 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:09,916 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:09,930 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:11,656 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:11,786 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:11,786 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:13,708 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:13,709 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:13,716 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:15,434 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:15,467 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:15,467 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:17,429 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:17,431 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:17,447 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:19,231 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:19,253 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:19,258 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:21,462 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:21,462 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:21,498 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:23,283 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:23,283 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:23,283 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:25,505 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:25,507 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:25,507 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:27,285 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:27,285 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:27,285 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:29,199 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:29,201 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:29,214 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:30,947 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:30,962 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:30,964 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:33,009 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:33,011 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:33,026 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:34,756 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:34,756 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:21:36,668 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:36,668 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:36,682 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:38,446 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:39,188 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:39,189 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:41,146 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:41,146 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:41,179 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:42,961 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:42,961 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:42,961 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:44,876 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:44,877 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:44,894 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:46,679 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:46,680 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:46,681 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:48,712 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:48,713 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:48,727 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:50,477 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:50,499 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:50,500 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:52,407 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:52,407 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:52,407 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:54,131 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:54,145 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:54,147 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:55,965 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:55,965 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:55,994 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:57,763 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:57,784 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:21:57,785 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:21:59,535 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:21:59,542 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:59,547 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:21:59,686 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:22:01,664 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:01,666 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:01,683 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:03,485 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:03,485 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:22:05,522 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:05,525 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:05,544 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:07,303 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:07,303 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:09,111 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:09,113 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:09,127 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:10,866 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:10,882 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:22:12,777 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:12,778 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:12,784 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:14,581 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:15,552 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:15,552 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:17,397 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:17,397 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:17,426 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:19,427 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:19,427 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:19,442 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:21,269 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:21,270 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:21,289 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:24,167 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:24,167 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:24,167 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:25,981 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:25,981 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:26,010 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:27,796 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:27,814 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:27,814 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:29,931 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:29,932 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:29,941 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:31,673 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:31,767 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:31,768 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:33,884 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:33,887 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:33,893 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:35,679 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:35,679 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:35,679 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:37,790 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:37,790 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:37,797 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:39,548 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:39,548 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:39,548 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:41,478 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:41,478 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:41,492 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:43,342 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:43,352 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:45,099 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:45,099 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:45,125 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:46,832 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:46,832 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:22:48,634 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:48,636 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:48,642 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:50,500 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:51,589 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:51,589 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:53,593 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:53,594 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:53,611 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:55,364 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:55,365 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:55,366 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:22:57,196 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:22:57,196 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:57,211 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:22:58,925 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:58,945 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:22:58,947 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:00,796 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:00,798 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:00,813 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:02,555 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:02,595 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:02,595 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:04,442 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:04,442 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:04,458 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:06,219 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:06,300 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:06,300 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:08,092 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:08,092 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:08,101 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:08,206 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:23:10,103 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:10,104 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:10,123 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:11,862 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:11,874 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:11,876 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:13,749 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:13,751 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:13,758 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:15,559 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:15,574 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:17,470 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:17,486 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:17,501 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:19,180 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:20,233 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:20,233 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:22,141 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:22,148 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:22,148 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:23,894 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:23,957 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:23,958 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:25,851 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:25,851 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:25,857 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:27,598 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:27,598 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:27,598 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:29,574 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:29,574 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:29,606 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:31,326 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:31,356 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:31,359 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:33,094 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:33,094 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:33,107 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:34,813 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:34,813 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:36,627 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:36,628 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:36,640 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:38,356 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:38,371 - ERROR - Error inserting batch: Out of range float values are not JSON compliant: nan
+2025-02-18 13:23:40,209 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:40,210 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:40,222 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:42,030 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:42,947 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:42,947 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:44,905 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:44,907 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:44,923 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:46,705 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:46,710 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:46,710 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-02-18 13:23:48,740 - INFO - inserting 100 documents in 'prachiti'
+2025-02-18 13:23:48,740 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:48,755 - INFO - insertMany(chunk) on 'prachiti'
+2025-02-18 13:23:50,504 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:50,504 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 401 Unauthorized"
+2025-02-18 13:23:50,504 - ERROR - Error inserting batch: Role unauthorized for operation: Missing token, expecting one in the Token header.. Client error '401 Unauthorized' for url 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401

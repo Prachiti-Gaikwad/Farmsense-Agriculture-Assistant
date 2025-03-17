@@ -1,0 +1,60 @@
+2025-03-16 12:30:28,511 - INFO - Use pytorch device_name: cpu
+2025-03-16 12:30:28,511 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-16 12:30:32,526 - INFO - Reading CSV file from datafarmer_cleaned.csv
+2025-03-16 12:30:32,674 - INFO - Original columns: ['Domain_Code', 'Domain', 'Area_Code', 'Area', 'Element_Code', 'Element', 'Item_Code', 'Item', 'Year_Code', 'Year', 'Unit', 'Value', 'Flag', 'Flag_Description', 'Note']
+2025-03-16 12:30:32,674 - INFO - Available columns: ['Domain_Code', 'Domain', 'Area_Code', 'Area', 'Element_Code', 'Element', 'Item_Code', 'Item', 'Year_Code', 'Year', 'Unit', 'Value', 'Flag', 'Flag_Description', 'Note']
+2025-03-16 12:30:32,699 - INFO - Total rows to process: 22597
+2025-03-16 12:30:35,331 - INFO - inserting 100 documents in 'prachiti'
+2025-03-16 12:30:35,332 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:35,345 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:37,599 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:37,601 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:37,645 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:37,648 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:37,650 - INFO - finished inserting 100 documents in 'prachiti'
+2025-03-16 12:30:37,650 - INFO - Inserted batch of 100 documents
+2025-03-16 12:30:39,477 - INFO - inserting 100 documents in 'prachiti'
+2025-03-16 12:30:39,479 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:39,480 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:40,241 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:40,241 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:40,288 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:40,288 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:40,288 - INFO - finished inserting 100 documents in 'prachiti'
+2025-03-16 12:30:40,288 - INFO - Inserted batch of 100 documents
+2025-03-16 12:30:41,739 - INFO - inserting 100 documents in 'prachiti'
+2025-03-16 12:30:41,740 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:41,746 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:42,420 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:42,420 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:42,464 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:42,464 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:42,464 - INFO - finished inserting 100 documents in 'prachiti'
+2025-03-16 12:30:42,464 - INFO - Inserted batch of 100 documents
+2025-03-16 12:30:44,100 - INFO - inserting 100 documents in 'prachiti'
+2025-03-16 12:30:44,100 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:44,128 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:44,732 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:45,195 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:45,396 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:45,396 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:45,396 - INFO - finished inserting 100 documents in 'prachiti'
+2025-03-16 12:30:45,396 - INFO - Inserted batch of 100 documents
+2025-03-16 12:30:47,024 - INFO - inserting 100 documents in 'prachiti'
+2025-03-16 12:30:47,024 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:47,032 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:47,563 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:47,577 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:48,113 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:48,113 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:48,113 - INFO - finished inserting 100 documents in 'prachiti'
+2025-03-16 12:30:48,113 - INFO - Inserted batch of 100 documents
+2025-03-16 12:30:49,829 - INFO - inserting 100 documents in 'prachiti'
+2025-03-16 12:30:49,830 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:49,843 - INFO - insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:50,701 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:50,701 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:50,968 - INFO - HTTP Request: POST https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace/prachiti "HTTP/1.1 200 OK"
+2025-03-16 12:30:50,968 - INFO - finished insertMany(chunk) on 'prachiti'
+2025-03-16 12:30:50,968 - INFO - finished inserting 100 documents in 'prachiti'
+2025-03-16 12:30:50,968 - INFO - Inserted batch of 100 documents

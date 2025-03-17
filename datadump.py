@@ -1,0 +1,172 @@
+import os
+from astrapy import DataAPIClient
+from sentence_transformers import SentenceTransformer
+import pandas as pd
+from tqdm import tqdm
+import logging
+from datetime import datetime
+from dotenv import load_dotenv
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(f'data_ingestion_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class AstraVectorDB:
+    def __init__(self, token, api_endpoint):
+        self.client = DataAPIClient(token)
+        self.db = self.client.get_database_by_api_endpoint(api_endpoint)
+        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+    
+    def validate_dataframe(self, df):
+        """Validate and clean the dataframe"""
+        # Print column names for debugging
+        logger.info(f"Available columns: {df.columns.tolist()}")
+        
+        # Expected columns
+        expected_columns = [
+            "Domain_Code", "Domain", "Area_Code", "Area", 
+            "Element_Code", "Element", "Item_Code", "Item", 
+            "Year_Code", "Year", "Unit", "Value", "Flag", 
+            "Flag_Description","Note"
+        ]
+        
+        # Check for missing columns
+        missing_columns = [col for col in expected_columns if col not in df.columns]
+        if missing_columns:
+            logger.warning(f"Missing columns: {missing_columns}")
+            raise ValueError(f"Missing required columns: {missing_columns}")
+        
+        # Clean the dataframe
+        df_clean = df.copy()
+        
+        # Convert to appropriate types with error handling
+        try:
+            df_clean['Year'] = pd.to_numeric(df_clean['Year'], errors='coerce')
+            df_clean['Value'] = pd.to_numeric(df_clean['Value'], errors='coerce')
+        except Exception as e:
+            logger.error(f"Error converting numeric columns: {str(e)}")
+        
+        # Fill NA/NaN values
+        df_clean = df_clean.fillna({
+            'Domain_Code': 'unknown',
+            'Domain': 'unknown',
+            'Area_Code': 'unknown',
+            'Area': 'unknown',
+            'Element Code': 'unknown',
+            'Element': 'unknown',
+            'Item_Code': 'unknown',
+            'Item': 'unknown',
+            'Unit': 'unknown',
+            'Flag': '',
+            'Flag_Description': '',
+            'Note':''
+        })
+        
+        return df_clean
+
+    def process_and_insert_data(self, csv_path, collection_name, batch_size=100):
+        try:
+            # Read CSV file
+            logger.info(f"Reading CSV file from {csv_path}")
+            df = pd.read_csv(csv_path)
+            logger.info(f"Original columns: {df.columns.tolist()}")
+            
+            # Validate and clean data
+            df_clean = self.validate_dataframe(df)
+            total_rows = len(df_clean)
+            logger.info(f"Total rows to process: {total_rows}")
+            
+            # Get collection
+            collection = self.db[collection_name]
+            
+            # Process in batches
+            for start_idx in tqdm(range(0, total_rows, batch_size), desc="Processing batches"):
+                end_idx = min(start_idx + batch_size, total_rows)
+                batch_df = df_clean.iloc[start_idx:end_idx]
+                
+                batch_documents = []
+                for _, row in batch_df.iterrows():
+                    try:
+                        # Create text for embedding
+                        text_content = (
+                            f"In {int(row['Year'])}, {str(row['Area'])} reported "
+                            f"{float(row['Value'])} {str(row['Unit'])} for {str(row['Item'])} "
+                            f"under {str(row['Element'])}. Domain: {str(row['Domain'])}"
+                        )
+                        
+                        # Generate embedding
+                        embedding = self.model.encode(text_content).tolist()
+                        
+                        # Create document
+                        document = {
+                            "text_content": text_content,
+                            "embedding": embedding,
+                            "metadata": {
+                                "domain_code": str(row['Domain_Code']),
+                                "domain": str(row['Domain']),
+                                "area_code": str(row['Area_Code']),
+                                "area": str(row['Area']),
+                                "element_code": str(row['Element_Code']),
+                                "element": str(row['Element']),
+                                "item_code": str(row['Item_Code']),
+                                "item": str(row['Item']),
+                                "year": int(row['Year']),
+                                "unit": str(row['Unit']),
+                                "value": float(row['Value']),
+                                "flag": str(row['Flag']),
+                                "flag_description": str(row['Flag_Description']),
+                                "Note":str(row['Note'])
+                            }
+                        }
+                        batch_documents.append(document)
+                        
+                    except Exception as e:
+                        logger.error(f"Error processing row: {str(e)}\nRow data: {row.to_dict()}")
+                        continue
+                
+                # Insert batch
+                if batch_documents:
+                    try:
+                        collection.insert_many(batch_documents)
+                        logger.info(f"Inserted batch of {len(batch_documents)} documents")
+                    except Exception as e:
+                        logger.error(f"Error inserting batch: {str(e)}")
+                
+            logger.info("Data ingestion completed successfully")
+            
+        except Exception as e:
+            logger.error(f"Failed to process CSV file: {str(e)}")
+            raise
+
+def main():
+    # Configuration
+    config = {
+        'token': "AstraCS:aRELYOSxZvohPXyzdUFAyjep:1eaa7f70ec0ae2e750c78fd7f287bd90f6458f6c2e00dc49501c62ca0405f501",
+        'api_endpoint': 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com',
+        'collection_name': 'prachiti',
+        'csv_path': 'datafarmer_cleaned.csv'  # Update this path
+    }
+    
+    try:
+        # Initialize Astra Vector DB connection
+        astra_db = AstraVectorDB(config['token'], config['api_endpoint'])
+        
+        # Process and insert data
+        astra_db.process_and_insert_data(
+            config['csv_path'],
+            config['collection_name']
+        )
+        
+    except Exception as e:
+        logger.error(f"Application error: {str(e)}")
+        raise
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,3 @@
+2025-02-18 12:38:28,388 - INFO - Use pytorch device_name: cpu
+2025-02-18 12:38:28,388 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-18 12:39:19,116 - ERROR - Application error: 'datafarmer_cleaned.csv'

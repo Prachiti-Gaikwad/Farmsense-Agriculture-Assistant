@@ -1,0 +1,3 @@
+2025-02-18 12:41:03,710 - INFO - Use pytorch device_name: cpu
+2025-02-18 12:41:03,710 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-02-18 12:41:07,869 - ERROR - Application error: 'prachiti'
