@@ -1117,7 +1117,7 @@ class ChatbotUI:
                                     "Total Change",
                                     f"{total_change:,.2f}",
                                     f"{percent_change:,.2f}%",
-                                    delta_color="normal" if percent_change >= 0 else "inverse"
+                                    delta_color="normal" #if percent_change >= 0 else "inverse"
                                 )
                             else:
                                 st.warning(
