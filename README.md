@@ -26,5 +26,6 @@ An AI-powered web application designed to provide insights on crops, weather, an
 - - Astra DB
 
 # Project Demo
-https://github.com/user-attachments/assets/c3cb6776-bef6-487c-bbc9-51573c41f810
+https://github.com/user-attachments/assets/1fce317a-5e2f-48fb-bb68-79462b81bb2a
+
 
