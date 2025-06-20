@@ -425,7 +425,7 @@ class PromptManager:
             }
         }
 
-        openai.api_key = "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"
+        openai.api_key = ""
         base_prompt = system_prompts.get(stage, {}).get(language, system_prompts[stage]['en'])
         response = openai.ChatCompletion.create(
             model="gpt-4o-mini",
@@ -446,7 +446,7 @@ class WebSearchManager:
     
     def __init__(self, openai_client: openai):
         self.openai_client = openai_client
-        openai.api_key = "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"
+        openai.api_key = ""
         
     def search_agricultural_data(self, crop: str, metric: str, year: int) -> Dict[str, Any]:
         """Search and summarize web data about the crop and metric"""
@@ -650,7 +650,7 @@ class WeatherAnalysisAgent:
     def __init__(self, cache_manager: CacheManager, openai_client: openai):
         self.cache_manager = cache_manager
         self.openai_client = openai_client
-        self.weather_api_key = "05c5db619df80d8a9cf45d3c38482238"
+        self.weather_api_key = ""
         if not self.weather_api_key:
             raise ValueError("OpenWeather API key not found in environment variables")
         self.geocoder = Nominatim(user_agent="agricultural_assistant")
@@ -1238,8 +1238,8 @@ def main():
 
     try:
         astra_client = AstraDB(
-            token="AstraCS:aRELYOSxZvohPXyzdUFAyjep:1eaa7f70ec0ae2e750c78fd7f287bd90f6458f6c2e00dc49501c62ca0405f501",
-            api_endpoint="https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com"
+            token="",
+            api_endpoint=""
         )
         
         cache_manager = CacheManager(redis_config)
