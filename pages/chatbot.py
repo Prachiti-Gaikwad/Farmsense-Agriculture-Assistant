@@ -5,7 +5,7 @@ import constant
 import time
 
 # Set OpenAI API key (for OpenAI 0.28)
-openai.api_key = "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"
+openai.api_key = ""
 
 # Page configuration
 st.set_page_config(
