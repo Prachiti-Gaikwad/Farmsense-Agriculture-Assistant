@@ -676,7 +676,7 @@ class WeatherAnalysisAgent:
     def __init__(self, cache_manager: CacheManager, openai_client: openai):
         self.cache_manager = cache_manager
         self.openai_client = openai_client
-        self.weather_api_key = "05c5db619df80d8a9cf45d3c38482238"
+        self.weather_api_key = ""
         if not self.weather_api_key:
             raise ValueError("OpenWeather API key not found in environment variables")
         self.geocoder = Nominatim(user_agent="agricultural_assistant")
