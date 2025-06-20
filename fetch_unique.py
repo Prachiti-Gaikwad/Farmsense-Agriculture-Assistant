@@ -47,11 +47,11 @@ def fetch_row_data(element, item, year):
         "metadata.year": year
     }
     # Initialize the Astra DB client
-    ASTRA_DB_TOKEN= "AstraCS:aRELYOSxZvohPXyzdUFAyjep:1eaa7f70ec0ae2e750c78fd7f287bd90f6458f6c2e00dc49501c62ca0405f501"
+    ASTRA_DB_TOKEN= ""
     client = DataAPIClient(ASTRA_DB_TOKEN)
 
     db = client.get_database_by_api_endpoint(
-       "https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com"
+       ""
     )
     print("Debug: Connected to the database endpoint.")
 
@@ -70,11 +70,11 @@ def fetch_row_data(element, item, year):
 if __name__ == "__main__":
     try:
         # Initialize the Astra DB client
-        ASTRA_DB_TOKEN= "AstraCS:aRELYOSxZvohPXyzdUFAyjep:1eaa7f70ec0ae2e750c78fd7f287bd90f6458f6c2e00dc49501c62ca0405f501"
+        ASTRA_DB_TOKEN= ""
         client = DataAPIClient(ASTRA_DB_TOKEN)
 
         db = client.get_database_by_api_endpoint(
-            "https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com"
+            ""
         )
         print("Debug: Connected to the database endpoint.")
 
