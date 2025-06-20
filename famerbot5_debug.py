@@ -1445,10 +1445,10 @@ def main():
 
     # Redis Cloud configuration
     redis_config = {
-        'host': 'redis-17069.c212.ap-south-1-1.ec2.redns.redis-cloud.com',
-        'port': 17069,
-        'username': 'default',
-        'password': "INv6NetfRcrVwYuV8HXgsrlekeF2eO51"  # Replace with your actual password
+        'host': '',
+        'port': ,
+        'username': '',
+        'password': ""  # Replace with your actual password
     }
 
     try:
