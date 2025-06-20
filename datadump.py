@@ -148,9 +148,9 @@ class AstraVectorDB:
 def main():
     # Configuration
     config = {
-        'token': "AstraCS:aRELYOSxZvohPXyzdUFAyjep:1eaa7f70ec0ae2e750c78fd7f287bd90f6458f6c2e00dc49501c62ca0405f501",
-        'api_endpoint': 'https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com',
-        'collection_name': 'prachiti',
+        'token': "",
+        'api_endpoint': '',
+        'collection_name': 'i',
         'csv_path': 'datafarmer_cleaned.csv'  # Update this path
     }
     
