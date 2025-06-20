@@ -3,18 +3,18 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # AstraDB Configuration
-ASTRA_DB_TOKEN= "AstraCS:aRELYOSxZvohPXyzdUFAyjep:1eaa7f70ec0ae2e750c78fd7f287bd90f6458f6c2e00dc49501c62ca0405f501",
+ASTRA_DB_TOKEN= "",
 
-ASTRA_DB_ENDPOINT= "https://81e88ab0-fca8-4540-9149-44a6f68fe277-us-east-2.apps.astra.datastax.com"
-ASTRA_COLLECTION_NAME= "prachiti"
+ASTRA_DB_ENDPOINT= ""
+ASTRA_COLLECTION_NAME= ""
 
 # openAI Configuration
-OPENAI_KEY= "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"
+OPENAI_KEY= ""
 OPENAI_ENDPOINT= "https://api.openai.com/v1"
 # AZURE_DEPLOYMENT_NAME= "gpt-4-turbo"
 
 # Redis Configuration (Optional - will fallback to in-memory if not available),,
-REDIS_URL= "redis-17069.c212.ap-south-1-1.ec2.redns.redis-cloud.com"
+REDIS_URL= ""
 
 # Unique Data Fetched
 # 'Yield', 'Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw'),
