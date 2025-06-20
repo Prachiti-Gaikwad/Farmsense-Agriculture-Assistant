@@ -1,4 +1,4 @@
-# farmerbot-assistant
+# Farmsense Agricuture Assistant
 
 # 🌾 Agricultural Data Assistant
 
@@ -13,7 +13,7 @@ An AI-powered web application designed to provide insights on crops, weather, an
 - **Price Prediction**: Leverages machine learning to forecast future crop prices and trends.
 - **Web Search Integration**: Gathers additional insights about crops and metrics from trusted web sources.
 - **Caching**: Combines Redis Cloud and in-memory caching for performance optimization.
-
+-**Chatbot**:Multilingual language support chatbot to farmers query respective to region specified
 ---
 
 # Prerequisites
