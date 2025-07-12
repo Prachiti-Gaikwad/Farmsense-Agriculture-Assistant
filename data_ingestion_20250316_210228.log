@@ -1,8 +1,0 @@
-2025-03-16 21:02:28,326 - INFO - Use pytorch device_name: cpu
-2025-03-16 21:02:28,326 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
-2025-03-16 21:02:34,521 - INFO - Reading CSV file from datafarmer.csv
-2025-03-16 21:02:34,569 - INFO - Original columns: ['Domain Code', 'Domain', 'Area Code', 'Area', 'Element Code', 'Element', 'Item Code', 'Item', 'Year Code', 'Year', 'Unit', 'Value', 'Flag', 'Flag Description', 'Note']
-2025-03-16 21:02:34,569 - INFO - Available columns: ['Domain Code', 'Domain', 'Area Code', 'Area', 'Element Code', 'Element', 'Item Code', 'Item', 'Year Code', 'Year', 'Unit', 'Value', 'Flag', 'Flag Description', 'Note']
-2025-03-16 21:02:34,582 - WARNING - Missing columns: ['Domain_Code', 'Area_Code', 'Element_Code', 'Item_Code', 'Year_Code', 'Flag_Description']
-2025-03-16 21:02:34,582 - ERROR - Failed to process CSV file: Missing required columns: ['Domain_Code', 'Area_Code', 'Element_Code', 'Item_Code', 'Year_Code', 'Flag_Description']
-2025-03-16 21:02:34,582 - ERROR - Application error: Missing required columns: ['Domain_Code', 'Area_Code', 'Element_Code', 'Item_Code', 'Year_Code', 'Flag_Description']
